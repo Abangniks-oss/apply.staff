@@ -16,9 +16,9 @@ let q1=document.getElementById("q1").value
 let q2=document.getElementById("q2").value
 let q3=document.getElementById("q3").value
 let q4=document.getElementById("q4").value
-let q4=document.getElementById("q5").value
-let q4=document.getElementById("q6").value
-let q4=document.getElementById("q7").value
+let q5=document.getElementById("q5").value
+let q6=document.getElementById("q6").value
+let q7=document.getElementById("q7").value
 
 const data={
 
