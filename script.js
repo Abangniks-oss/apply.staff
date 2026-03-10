@@ -16,12 +16,15 @@ let q1=document.getElementById("q1").value
 let q2=document.getElementById("q2").value
 let q3=document.getElementById("q3").value
 let q4=document.getElementById("q4").value
+let q4=document.getElementById("q5").value
+let q4=document.getElementById("q6").value
+let q4=document.getElementById("q7").value
 
 const data={
 
 embeds:[{
 
-title:"📨 Staff Application",
+title:"📨 Data pengajuan staff DOOMINIKS",
 
 color:16711680,
 
@@ -29,11 +32,17 @@ fields:[
 
 {name:"Bisa dipercayai?",value:q1},
 
-{name:"Yakin kontribusi?",value:q2},
+{name:"Keyakinan berkontribusi",value:q2},
 
-{name:"Pengetahuan staff",value:q3},
+{name:"Pengetahuan tugas staff",value:q3},
 
-{name:"Alasan bergabung",value:q4}
+{name:"Alasan bergabung",value:q4},
+
+{name:"Nama Pengirim",value:q5}
+
+{name:"Username discord/roblox pengirim",value:q6}
+
+{name:"Media sosial pengirim",value:q7}
 
 ]
 
@@ -51,6 +60,6 @@ body:JSON.stringify(data)
 
 })
 
-alert("Application berhasil dikirim!")
+alert("Pengajuan anda berhasil dikirim!")
 
 })
